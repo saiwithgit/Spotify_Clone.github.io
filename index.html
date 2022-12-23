@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite Music is here </title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify </li>
+            <b><li> Premium </li></b>
+            <b><li> Support </li></b>
+            <b><li> Download </li></b>
+            <li> | </li>
+            <li> Sign up </li>
+            <li> Log in </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- <h1>Best of Music Version - #Spotify 0.1</h1> -->
+        <div class="wallpaper">
+            <img src="wall.jpg" alt="phone">
+        </div>
+
+        <div class="title">
+            <p> Play millions of songs and 
+            podcasts, for free.</p>
+        </div>
+
+        <div class="btn">
+            <p> GET SPOTIFY FREE </p>
+        </div>
+        
+    </div>
+
+    <section class="features">
+        <h1> Why Spotify ? </h1>
+        <div id="services">
+         <div class="box">
+            <img src="play.png" alt=""><br>
+            <h2 class="head2 center">Play your favorites. </h2><br>
+            <p class="center"> Listen to the songs you love, and discover new music and 
+                podcasts.</p>
+        </div>
+        <div class="box">
+            <img src="line.jpg" alt=""><br>
+            <h2 class="head2 center"> Playlists made easy. </h2><br>
+            <p class="center"> We'll help you make playlists. Or enjoy playlists made by music experts. </p>
+        </div>
+        <div class="box" >
+            <img src="heart.png" alt=""><br>
+            <h2 class="head2 center"> Make it yours. </h2><br>
+            <p class="center"> Tell us what you like, and we'll recommend music for you. </p>
+        </div>
+        <div class="box">
+            <img src="light.jpg" alt=""><br>
+            <h2 class="head2 center"> Save mobile data.</h2><br>
+            <p class="center"> To use less data when you play music, turn on Data Saver in Settings. </p>
+        </div>
+        </div>
+    </section>
+
+    <div class="text">
+        <p>It's free.<br>
+        No credit card required.</p>
+    </div>
+
+    <div class="que">
+        <h1> Got Questions ? </h1>
+        <div class="first" onclick="ShowAndHide()">
+            <p>How do I create a playlist ?</p>
+           <button> >> </button>
+          
+        </div>
+            <div class="ans1">
+                <p id="demo" style="display: none"> <br>Playlists are a great way to save collections of music, either for your own listening or to share.<br><br>
+                    To create one:<br>
+                    
+                    1. Tap Your Library.<br>
+                    2. Tap CREATE.<br>
+                    3. Give your playlist a name.<br>
+                    4. Start adding songs (and we'll help you along). </p><br><br>
+            </div>
+
+            <div class="sec" onclick="ShowAndHide2()">
+                <p>How do I activate Data Saver mode ?</p>
+               <button > >> </button>
+            </div>
+            <div class="ans2">
+                <p id="demo2" style="display: none"><br>
+                    1. Tap Home.<br>
+                    2. Tap Settings.<br>
+                    3. Tap Data Saver.<br>
+                    4. Switch on Data Saver. </p><br><br>
+            </div>
+
+            <div class="third" onclick="ShowAndHide3()">
+                <p> Is it only possible to shuffle play music ? </p>
+               <button > >> </button>
+            </div>
+            <div class="ans3">
+                <p id="demo3" style="display: none"><br>
+                    Any playlist with the shuffle icon will play on shuffle.<br>
+                    Some playlists won't have the shuffle icon, so you can tap any song to play it. </p><br><br>
+            </div>
+
+            <div class="fourth" onclick="ShowAndHide4()">
+                <p> Where can I find Podcasts ? </p>
+               <button > >> </button>
+            </div>
+            <div class="ans4">
+                <p id="demo4" style="display: none"><br>
+                    Tap Search. Under Browse All, tap Podcasts.</p>
+            </div>
+    </div>
+
+    <div class="ready">
+        <p>
+            Ready ? Let's Play...
+        </p>
+    </div>
+
+    <div class="last">
+        <div class="logo">
+            <img src="logo.png" alt="Spotify">
+            <p>Spotify</p>
+        </div>
+        <div class="list">
+            <section><b>COMPANY</b><br><br>
+                <option value="1">About</option>
+                <option value="2">Jobs</option>
+                <option value="3">For the record</option>
+            </section>
+        </div>
+
+        <div class="list2">
+            <section><b>COMMUNITIES</b><br><br>
+                <option value="1">For Artists</option>
+                <option value="2">Developers</option>
+                <option value="3">Advertising</option>
+                <option value="4">Investors</option>
+                <option value="5">Vendors</option>
+            </section>
+        </div>
+
+        <div class="list3">
+            <section><b>USEFUL LINKS</b><br><br>
+                <option value="1">Support</option>
+                <option value="2">Web Player</option>
+                <option value="3">Free Mobile App</option>
+            </section>
+        </div>
+
+        <div class="media">
+            <p>
+                <ion-icon name="logo-instagram" id="in">Insta</ion-icon>
+                <br><br>
+                <ion-icon name="logo-facebook" id="fb">Facebook</ion-icon>
+                <br><br>
+                <ion-icon name="logo-twitter" id="tt"> Twitter</ion-icon>
+            </p>
+        </div>
+
+        <div id="foot">
+            <ion-icon name="earth-outline"></ion-icon>&nbsp;
+            India (English)
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spotify SAI</p>
+        </div>
+    </div>
+
+    
+
+    
+</body>
+</html>
